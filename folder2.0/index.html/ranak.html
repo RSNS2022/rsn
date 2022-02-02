@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>RABINDRA SISHU NIKETAN</title>
+    <style>
+        
+        .navbar{
+            background-color: black;
+            border-radius: 30px;
+            z-index: -1;
+            
+        
+            
+        }
+        .navbar ul{
+            overflow: auto;
+        }
+        .navbar li{
+            float:left;
+            list-style: none; 
+            margin: 13px 20px;
+            
+        }
+        .navbar li a{
+            padding: 3px 3px;
+            text-decoration: none;
+            color: white;
+        }
+        .navbar li a:hover, .navbar li a.active{
+            color: rgb(14, 131, 102)
+        }
+        
+        .navbar input{
+            border: 2px solid black;
+            border-radius: 14px;
+            padding: 3px 17px;
+            width: 129px;
+        }
+        .btn{
+            background-color: turquoise;
+            float: right;
+            cursor: pointer;
+            padding: 6px;
+            border-radius: 10px;
+            margin-left: 5px;
+        }
+        .container{
+            display:flex;
+            flex-direction: column;
+            padding: 3px 200px;
+            font-size: 20px;
+            justify-content: center;
+            align-items: center;
+        }
+        .container::before{
+            content: "";
+            background:url("./rabindra1.jpeg");
+            position: absolute;
+            height: 150vh;
+            width: 100vw;
+            z-index: -1;
+            opacity:0.5;
+        }
+        @media all and (max-height: 9000px){
+
+        }
+        .bag{
+            background-color:rgb(75, 26, 107);
+            color:white;
+            padding: 6px;
+            border: none;
+            cursor: pointer;
+            font-size: 13px;
+            border-radius:4px;
+        }
+        #bagg button:hover{
+            color: rgb(219, 253, 25);
+        }
+        #bagg button{
+            padding: 10px;
+            margin: 45px;
+            margin-bottom: 20px;
+        }
+        .footer{
+            display: flex;
+            flex-direction: column;
+            color: white;
+            background-color: rgb(8, 4, 68);
+            border: 2px solid white;
+        }
+        .conter{
+            max-width: 1170px;
+            margin:auto;
+        }
+
+        
+    </style>
+</head>
+
+<body>
+    <header>
+        
+        <nav class="navbar">
+            <ul>
+                <li><a class="active" href="#">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="admission.html">admission</a></li>
+                <li><a href="contact.html">Contact us</a></li>
+                <a href="join.html"><button class="btn">join now</button></a>
+                <a href="join.html"> <button class="btn">register</button></a>
+                
+            </ul>
+        </nav>
+    </header>
+    
+    <div class="container">
+        <h1>RABINDRA SISHU NIKETAN</h1>
+        <p>Lorem ipsum dolor sit, amet Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique nesciunt reiciendis optio debitis sint, quisquam aperiam aliquam obcaecati, voluptatibus dolore eligendi, quam minima mollitia quidem deserunt voluptatem ad tempore quod? Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, porro officia, dolores animi magnam possimus est consequuntur explicabo aut quo nesciunt et maxime, odit amet nemo enim asperiores iste. Nostrum, architecto tenetur. Consectetur, exercitationem! consectetur adipisicing elit. Corporis corrupti eum aliquid tempora inventore quidem perspiciatis voluptate facere hic. Suscipit dolor voluptate veritatis nesciunt quis! Soluta amet blanditiis laboriosam sapiente laborum aut! Repudiandae, unde, deserunt aliquam fuga praesentium vitae mollitia magnam ipsa aperiam, sit obcaecati. Blanditiis repudiandae possimus quaerat at.</p>
+        
+    </div>
+    <hr>
+    <div id="bagg">
+                <button class="bag">Gallery</button>
+
+                <button class="bag">Academics</button>
+                <button class="bag">Staff</button>
+                <button class="bag">    Recent activities</button>
+                <a href="history.html">
+                    <button class="bag">history</button>
+                </a>
+                <button class="bag">alumni</button>
+    </div>
+    <hr>
+    <footer class="footer">
+        <div class="conter">
+            <div class="row">
+                <div class="footer-col">
+                    <h4>menu</h4>
+                    <ul>
+                       <li> <a href="#">ADRESS: SUBHASNAGAR </a></li>
+                        <li><a href="#"> EAST PRATAPGAR</a></li>
+                        <li><a href="#">NEAR SUBHAS NAGAR AUTO STAND</a></li>
+                        <li><a href="#">799004</a></li>
+                        <li><a href="#"></a></li>
+                        <li><a href="#"> AGARTALA , TRIPURA</a></li>
+                        <li><a href="#">Designed By RANAK GHOSH </a></li>
+                        <a href="ranakcontact.html">
+                        <button class="bag">contact RANAK here</button>
+                        </a>
+                    </ul>
+               
+                
+                <div class="footer-col">
+                    <h4>follow us on</h4>
+                    <div>
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.instagram.com/rabindrasishuniketan/"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://www.youtube.com/channel/UCQBtqrvzsLm6jkvsz1CECJQ/channels"><i class="fab fa-youtube"></i></a>
+                
+                    
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+</body>
+
+</html>
